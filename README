@@ -1,4 +1,4 @@
-Tree::Predicate 0.01
+Tree::Predicate 0.02
 
 NAME
 	Tree::Predicate - a tree of predicate logic (e.g. an SQL predicate)
@@ -48,13 +48,13 @@ DESCRIPTION
 	any static query in whatever form performs best.  What about queries
 	that are created dynamically, though?
 
-	This is where Tree::Predicate comes in.  Construct a tree with its logical
-	operators (AND/OR/NOT).  The "split" method will return a list of
-	subtrees that can be used as predicates in a series of UNION queries
-	that are logically equivalent to the original predicate.
+	This is where Tree::Predicate comes in.  Construct a tree with its
+	logical operators (AND/OR/NOT).  The "split" method will return a
+	list of subtrees that can be used as predicates in a series of
+	UNION queries that are logically equivalent to the original predicate.
 	
-	The subtrees can be used to construct a complete query or can be used to
-	query a database successively so that previous results can be used to
+	The subtrees can be used to construct a complete query or can be used
+	to query a database successively so that previous results can be used to
 	modify subsequent queries.  Suppose we have a tree $tree that is
 	being used to query table items:
 	
@@ -136,7 +136,7 @@ You can also look for information at:
 
 COPYRIGHT AND LICENSE
 
-Copyright (C) 2009 Yahoo!, Inc.
+Copyright (C) 2010 Yahoo!, Inc.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
