@@ -1,4 +1,4 @@
-Tree::Predicate 0.02
+Tree::Predicate 0.03
 
 NAME
 	Tree::Predicate - a tree of predicate logic (e.g. an SQL predicate)
